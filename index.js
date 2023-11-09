@@ -16,7 +16,7 @@ let pension;
 if (age < 63) {
     pension = 'нет'
 }
-else { pension = 'да' }
+else { pension = 'да' };
 
 let arr = ['ваше ФИО:', family, name, patronymic, 'ваш возраст в годах:', age,
     'ваш возраст в днях:', age1, 'через 5 лет вам будет:', age2, 'ваш пол:', sex1, 'вы на пенсии:', pension];
@@ -27,4 +27,5 @@ let str = arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + '\n'
     + arr[8] + ' ' + arr[9] + '\n'
     + arr[10] + ' ' + arr[11] + '\n'
     + arr[12] + ' ' + arr[13];
+
 alert(str)
